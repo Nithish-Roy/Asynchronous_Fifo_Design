@@ -28,7 +28,5 @@ open_run synth_1
 report_utilization -file ./vivado_project/fifo_utilization.rpt
 report_timing_summary -file ./vivado_project/fifo_timing.rpt
 
-# Optionally, open schematic GUI (only works in GUI mode)
-# launch_runs synth_1 -to_step write_schematic
-# write_schematic -force ./vivado_project/fifo_schematic.pdf
+
 
